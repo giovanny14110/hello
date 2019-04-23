@@ -1,5 +1,6 @@
 <?php
 require "function.php";
+require "jquery-3.4.0.min.js";
 
 $resultat = getAllAnnonces();
 
