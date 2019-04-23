@@ -8,6 +8,11 @@ function getAllAnnonces() {
     return $data;
 
 }
+function getFirstAnnonce(){
 
+	$first = current(getAllAnnonces());
+    return $first ;
+
+}
 
 ?>
