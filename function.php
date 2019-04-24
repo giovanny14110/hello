@@ -20,5 +20,7 @@ function insertAnnonce($libelle, $tab) {
     return $data;
 }
 
-
+function deleteAnnonce() {
+    return [];
+}
 ?>
